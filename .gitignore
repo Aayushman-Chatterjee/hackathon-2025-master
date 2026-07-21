@@ -1,0 +1,8 @@
+node_modules/@babel/traverse/node_modules/globals/globals.json
+node_modules/@babel/traverse/lib/scope/lib/renamer.js.map
+node_modules/.bin/autoprefixer
+node_modules/*
+node_modules/.bin/browserslist
+dist/*
+
+.DS_Store

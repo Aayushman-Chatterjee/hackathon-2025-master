@@ -1,0 +1,53 @@
+{
+  "users": {
+    "user_1002": {
+      "basic_info": {
+        "name": "Michael Smith",
+        "age": 28,
+        "income": 6000,
+        "monthly_expenses": 2500,
+        "total_savings": 60000,
+        "employment_status": "Employed",
+        "job_title": "Software Engineer",
+        "city": "Seattle",
+        "currency": "USD",
+        "monthly_salary_date": "2025-01-01"
+      },
+      "assets": {
+        "asset_1": {
+          "type": "Life Insurance",
+          "value": 100000,
+          "loan_balance": 0
+        },
+        "asset_2": {
+          "type": "Inheritance",
+          "value": 200000,
+          "loan_balance": 0
+        }
+      },
+      "liabilities": {},
+      "profile_score": {
+        "score": 800,
+        "last_updated": "2025-01-01"
+      },
+      "spending_data": {
+        "spending_1": {
+          "category": "Savings Deposit",
+          "amount": 2000,
+          "transaction_date": "2025-01-03",
+          "transaction_type": "Credit",
+          "account": "Bank Account",
+          "merchant": "High-Yield Savings Account"
+        },
+        "spending_2": {
+          "category": "Family Expenses",
+          "amount": 500,
+          "transaction_date": "2025-01-04",
+          "transaction_type": "Debit",
+          "account": "Bank Account",
+          "merchant": "Parents' Medical Bills"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "hackathon-2025",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "firebase-admin": "^13.0.2"
+  }
+}
