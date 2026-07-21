@@ -3,7 +3,7 @@
 const { Firestore } = require('@google-cloud/firestore');
 
 // Initialize Firebase Admin SDK
-const serviceAccount = ProcessingInstruction.env.SERVICE_ACCOUNT;
+const serviceAccount = process.env.SERVICE_ACCOUNT;
 
 const db = new Firestore({
   databaseId: 'hackathon-2025',
