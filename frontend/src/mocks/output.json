@@ -1,0 +1,93 @@
+{
+  "classification": {
+    "classification": "Average_Investor",
+    "reasoning": "You have a moderate income and expenses rate with a savings of 33% of your income. However, you have quite an amount in liabilities, specifically, a credit card debt of $15,000. Furthermore, your investments are focused majorly on high-risk assets like stocks and cryptocurrencies. Therefore, considering your overall financial health, you are classified as an Average_Investor."
+  },
+  "group1_insights": {
+    "investment_opportunities": [
+      {
+        "suggestion": "Invest in Real Estate",
+        "reasoning": "According to your profile 'Real Estate Master', it is seen that you have a liking towards real estate investments and also being an investment banker you would have good knowledge about the same. Also, your income seems to allow that kind of investment.",
+        "starting_amount": "$20,000",
+        "expected_return": "9-12% annually"
+      },
+      {
+        "suggestion": "Diversify into Index Funds",
+        "reasoning": "To protect yourself from highly volatile risky investments like Stocks and Crypto, it will be beneficial to diversify into a less risky index fund.",
+        "starting_amount": "$10,000",
+        "expected_return": "5-10% annually"
+      }
+    ],
+    "spending_optimization": [
+      {
+        "category": "Credit Card Debt",
+        "current_spending": "$15,000",
+        "potential_savings": "$1,800 annually",
+        "suggestion": "Pay off the credit card debt quickly to avoid high interest over time"
+      },
+      {
+        "category": "Luxury Dining",
+        "current_spending": "$300",
+        "potential_savings": "$1,800 annually",
+        "suggestion": "Minimize luxury dining expenses, and prioritize home cooking meals or cost-efficient restaurants"
+      }
+    ],
+    "goal_achievement": {
+      "status": "Off Track",
+      "missing_milestones": ["Emergency Fund", "Retirement Savings"],
+      "action_items": [
+        "Establish $18,000 emergency fund (3x monthly expenses)",
+        "Start 401k contributions of $1,000 monthly",
+        "Aim to increase your total savings, which are currently on the lower side."
+      ]
+    }
+  },
+  "group2_insights": {
+    "patterns": {
+      "regular_transactions": [
+        { "category": "Stocks Investment", "average_amount": 1000, "frequency": "Once" },
+        { "category": "Luxury Dining", "average_amount": 300, "frequency": "Once" },
+        { "category": "Home Loan Payment", "average_amount": 20000, "frequency": "Once" }
+      ],
+      "deviations": [
+        { "type": "Unusual Spending", "amount": 30000, "date": "2025-01-05", "category": "Home Loan Payment", "concern": "50% deviation from average home loan payment" }
+      ]
+    },
+    "recommendations": {
+      "immediate_actions": ["Set home loan payment alert at $2500", "Review stocks investment performance"],
+      "profile_impact": "Current spending pattern may affect Real_Estate_Master classification"
+    }
+  },
+  "group3_insights": {
+    "passive_income": {
+      "opportunities": [
+        {
+          "type": "Stocks Investment Dividend",
+          "potential_income": "3-5% of the portfolio annually",
+          "initial_investment": "Existing Investment",
+          "action_steps": ["Invest more in high dividend yield stocks"]
+        },
+        {
+          "type": "Crypto Staking",
+          "potential_income": "5-10% of the staked amount annually",
+          "initial_investment": "Existing Crypto",
+          "action_steps": ["Choose the right and reliable crypto exchange for staking", "Understand the potential risks involved"]
+        }
+      ]
+    },
+    "savings_optimization": {
+      "monthly_allocation": {
+        "emergency_fund": "15% ($1350)",
+        "retirement": "30% ($2700)",
+        "investment": "30% ($2700)",
+        "personal_expenses": "15% ($1350)",
+        "debt_repayment": "10% ($900)"
+      },
+      "milestones": { "3_months": "Build emergency fund to $4050", "6_months": "Reduce credit card debt by 50%" }
+    },
+    "budgeting": {
+      "recommended_splits": { "essential_expenses": "60% ($5400)", "investments": "30% ($2700)", "discretionary": "10% ($900)" },
+      "specific_targets": { "housing": "< $2700", "transportation": "< $810", "utilities": "< $540", "eating_out": "< $270", "credit_card_debt_payment": "$900" }
+    }
+  }
+}
