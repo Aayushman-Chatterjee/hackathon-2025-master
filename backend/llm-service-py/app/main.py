@@ -26,12 +26,12 @@ app.add_middleware(
 )
 
 os.environ["OPENAI_API_KEY"] = "EMPTY"
-os.environ["OPENAI_API_BASE"] = f"{os.environ['BODHI_LLM_GATEWAY_BASE_URL']}/api/openai"
+os.environ["OPENAI_API_BASE"] = f"{os.environ['LLM_GATEWAY_BASE_URL']}/api/openai"
 
 llm = ChatOpenAI(
     model="gpt-4o",
     # api_key=os.environ["OPENAI_API_KEY"],
-    default_headers={"Authorization": os.environ["BODHI_LLM_GATEWAY_TOKEN"]},
+    default_headers={"Authorization": os.environ["LLM_GATEWAY_TOKEN"]},
 )
 prompt_service = PromptService()
 analysis_service = FinancialAnalysisService(llm, prompt_service)
